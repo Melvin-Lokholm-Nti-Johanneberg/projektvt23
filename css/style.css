@@ -1,0 +1,125 @@
+/* Basic styling */
+
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    }
+    
+    /* Header styling */
+    
+    header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    }
+    
+    nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    nav li {
+    margin-right: 20px;
+    }
+    
+    nav a {
+    text-decoration: none;
+    color: #fff;
+    }
+    
+    nav a:hover {
+    text-decoration: underline;
+    }
+    
+    /* Main styling */
+    
+    main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    overflow-x: auto; /* add horizontal scrollbar */
+    }
+    
+    section {
+    margin-bottom: 40px;
+    }
+    
+    h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    }
+    
+    h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    }
+    
+    ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: auto; /* add horizontal scrollbar */
+    }
+    
+    li {
+    flex: 1 0 33%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    }
+    
+    a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    }
+    
+    img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    }
+    
+    /* Footer styling */
+    
+    footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    /* CTA section styling */
+    
+    .cta-section {
+    background-color: #eee;
+    padding: 40px;
+    text-align: center;
+    }
+    
+    .cta-section h2 {
+    margin-bottom: 20px;
+    }
+    
+    .cta-section p {
+    margin-bottom: 20px;
+    }
+    
+    .cta-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    }
+    
+    .cta-button:hover {
+    background-color: #555;
+    }

@@ -1,0 +1,17 @@
+.video-container {
+    overflow-x: scroll;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .row {
+      display: flex;
+      flex-wrap: nowrap;
+      margin-bottom: 20px;
+  }
+  .row iframe {
+      flex: 1;
+      margin-right: 10px;
+  }
+  .row iframe:last-child {
+      margin-right: 0;
+  }

@@ -8,7 +8,17 @@
 		.video-container {
 			overflow-x: auto;
 			display: flex;
-			flex-wrap: nowrap;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+
+		@media (max-width: 768px) {
+			.video-container {
+				flex-wrap: nowrap;
+			}
+			.video-container iframe {
+				margin-right: 10px;
+			}
 		}
 	</style>
 </head>
@@ -26,28 +36,28 @@
 	</header>
 	<main>
 		<section>
-			<h1>Welcome to my portfolio</h1>
-			<p>Here you can find some of my latest designs:</p>
+			<h1>Welcome to Thxraz' portfolio</h1>
+			<a href="videos.html">Here You Can Find My Latest Projects:</a>
 		</section>
 		<section>
-			<h2>My Latest Videos and Artworks:</h2><a href="videos.html">My latest videos and artworks</a>
+		
 			<section>
 				<div class="video-container">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/cI13XDpKz_E" allowfullscreen></iframe>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/V8nCYK2v_oo?list=PLFcgDd8XJSB02SCpQsyB7wp0TLem_JARO" allowfullscreen></iframe>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/qPx4dfRF4JM?list=PLFcgDd8XJSB02SCpQsyB7wp0TLem_JARO" allowfullscreen></iframe>
+					<iframe width="425px" height="315" src="https://www.youtube.com/embed/cI13XDpKz_E" allowfullscreen></iframe>
+					<iframe width="425pxs"  height="315" src="https://www.youtube.com/embed/V8nCYK2v_oo?list=PLFcgDd8XJSB02SCpQsyB7wp0TLem_JARO" allowfullscreen></iframe>
+					<iframe width="425px" height="315" src="https://www.youtube.com/embed/qPx4dfRF4JM?list=PLFcgDd8XJSB02SCpQsyB7wp0TLem_JARO" allowfullscreen></iframe>
 				</div>
 			</section>
 			<ul>
 				<li>
 					<a href="#">
-						<h3>Project 1</h3>
+						<h3>Halloween På Liseberg</h3>
 						<img src="Melvin_Lökholm_Halloween.png" alt="Melvin_Lökholm_Halloween">
 					</a>
 				</li>
 				<li>
 					<a href="#">
-						<h3>Project 2</h3>
+						<h3>The Manhattan Project</h3>
 						<img src="Melvin Lökholm_Onomatopoetiskt Ord.png" alt="Melvin Lökholm_Onomatopoetiskt Ord">
 					</a>
 				</li>
@@ -65,9 +75,3 @@
 </footer>
 </body>
 <script>
-	const getInTouchButton = document.getElementById('get-in-touch');
-	getInTouchButton.addEventListener('click', function() {
-	  window.location.href = 'https://www.instagram.com/thxraz/';
-	});
-</script>
-</html>
